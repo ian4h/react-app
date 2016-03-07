@@ -42,9 +42,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/*!*****************!*\
-  !*** ./main.js ***!
-  \*****************/
+/*!********************!*\
+  !*** ./js/main.js ***!
+  \********************/
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -57,7 +57,7 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _App = __webpack_require__(/*! ./App */ 159);
+	var _App = __webpack_require__(/*! ./components/App */ 159);
 	
 	var _App2 = _interopRequireDefault(_App);
 	
@@ -20197,9 +20197,9 @@
 
 /***/ },
 /* 159 */
-/*!****************!*\
-  !*** ./App.js ***!
-  \****************/
+/*!******************************!*\
+  !*** ./js/components/App.js ***!
+  \******************************/
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";

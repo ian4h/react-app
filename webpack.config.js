@@ -5,9 +5,9 @@ var path = require('path');
 var APP_DIR = path.resolve(__dirname);
 module.exports = {
     context: __dirname,
-    entry: './main.js',
+    entry: './js/main.js',
     output: {
-        path: __dirname,
+        path: __dirname + "/js/",
         filename: 'index.js'
     },
     devServer: {

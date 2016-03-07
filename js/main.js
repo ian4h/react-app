@@ -3,8 +3,10 @@
  */
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './App';
+import App from './components/App';
+import Wrapper from './components/Wrapper'
 ReactDom.render(
-    <App text="Props text"/>,
+    //<App text="Props text"/>,
+    <Wrapper />,
     document.getElementById('app')
 );
