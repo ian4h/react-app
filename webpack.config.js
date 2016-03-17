@@ -14,11 +14,6 @@ module.exports = {
         inline: true,
         port: 3000
     },
-    //resolveLoader: {
-    //    root: [
-    //        path.join(__dirname, "node_modules")
-    //    ]
-    //},
     module: {
         loaders: [
             {
